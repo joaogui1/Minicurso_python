@@ -3,13 +3,13 @@ import pdb
 def square(x):
     return x*x
 
+pdb.set_trace()
 x = 432
 
 x += x
 
 l = list(range(12))
 
-pdb.set_trace()
 
 square(x)
 

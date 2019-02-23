@@ -12,12 +12,15 @@ def titles(**kwargs):
         print(f'{person} {title}')
 
 
-print(suma(1, 2, 3, 4))
-titles(Gallahad="The Pure", Robin="The Brave")
+# print(suma(1.0, 2.5, 3, 4))
+# titles(Gallahad="The Pure", Robin="The Brave")
 
-inputs = {'a':3, 'b':4}
+inputs = [4, 3, 2, 1]
+
+def f(a, b, c, d):
+    return a**2 + b**3 + c**4 + d**5
 
 def sum_sq(a, b):
     return(a*a + b*b)
 
-print(sum_sq(**inputs))
+print(f(*inputs))

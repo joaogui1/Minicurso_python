@@ -1,9 +1,11 @@
 import my_module
 from my_secondmodule import g
 
-my_module.f()
-print(g(10))
-
+# my_module.f()
+# print(g(10))
+#
+# ans = g(int(input()))
+# print(ans)
 try:
     fib_index = int(input())
 except ValueError: #Exception

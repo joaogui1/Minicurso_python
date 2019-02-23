@@ -2,5 +2,5 @@ def f():
     if __name__ == "__main__":
         print("Executed as main")
     else:
-        print(3)
+        print("Not executed as main")
 f()
